@@ -1,0 +1,105 @@
+//use Roboto font
+
+html {
+
+  font-family: "Inter", sans-serif;
+
+  font-weight: 400;
+
+}
+
+body input,
+
+body button,
+
+body select,
+
+body textarea {
+
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+
+}
+
+//raise and round buttons
+
+.btn {
+
+  border-radius: 50px;
+
+}
+
+//remove shadow from a few buttons
+
+.d-editor-button-bar .btn,
+
+.bulk-select-all,
+
+.bulk-clear-all,
+
+.period-chooser-header,
+
+.topic-map .btn.no-text,
+
+.badge-section .btn,
+
+#revision .btn,
+
+#new-account-link,
+
+#login-link {
+
+  border-radius: 0;
+
+  box-shadow: none;
+
+}
+
+// Topic adjustments
+
+.small-action {
+
+  border-top: none;
+
+  margin-top: 1em;
+
+  max-width: 808px;
+
+  button {
+
+    margin-left: 1em;
+
+    background-color: var(--material-lighter-secondary);
+
+  }
+
+}
+
+.read-state {
+
+  right: 1em;
+
+}
+
+.gap {
+
+  margin-top: 1em;
+
+}
+
+.post-notice {
+
+  border: none;
+
+  background: transparent;
+
+  margin-left: 50px;
+
+  margin-top: 0.75em;
+
+}
+
+.popup-menu .btn {
+
+  box-shadow: none;
+
+}
